@@ -1,0 +1,42 @@
+/* =========================================================
+   Breadcrumb
+   ========================================================= */
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-bottom: 22px;
+
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.breadcrumb__link {
+    color: var(--color-text-light);
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+    transition: var(--transition);
+}
+
+.breadcrumb__link:hover {
+    color: var(--color-primary);
+}
+
+.breadcrumb__separator {
+    color: var(--color-text-light);
+}
+
+.breadcrumb__current {
+    color: var(--color-dark);
+
+    font-weight: 700;
+
+    overflow-wrap: anywhere;
+}

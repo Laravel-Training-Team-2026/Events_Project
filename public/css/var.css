@@ -1,0 +1,29 @@
+:root {
+    /* Colors */
+    --color-primary: #F4C542;
+    --color-dark: #1F1F35;
+
+    --color-white: #FFFFFF;
+    --color-background: #FAFAFA;
+
+    --color-text: #222222;
+    --color-text-light: #666666;
+
+    --color-border: #E5E5E5;
+
+    /* Typography */
+    --font-family: Arial, Helvetica, sans-serif;
+
+    /* Border Radius */
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+    --radius-circle: 50%;
+
+    /* Transition */
+    --transition: .3s ease;
+
+    /* Grid */
+    --container-width: 1100px;
+    --gutter-x: 15px;
+}
